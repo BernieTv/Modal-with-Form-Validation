@@ -1,0 +1,28 @@
+table.customTable {
+	width: 100%;
+	background-color: #ffffff;
+	border-collapse: collapse;
+	border-width: 2px;
+	border-color: #7ea8f8;
+	border-style: solid;
+	color: #000000;
+	border-spacing: 0px;
+	table-layout: fixed;
+}
+
+table.customTable td,
+table.customTable th {
+	border-width: 2px;
+	border-color: #7ea8f8;
+	border-style: solid;
+	padding: 10px;
+}
+
+table.customTable td {
+	inline-size: 150px;
+	overflow-wrap: break-word;
+}
+
+table.customTable thead {
+	background-color: #f3f857;
+}
